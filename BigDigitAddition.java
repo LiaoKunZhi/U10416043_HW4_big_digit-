@@ -425,4 +425,13 @@ public class BigDigitAddition{
 		}	
 		}		
 	}	
+
+	//Make a new method to return the end
+	public String getPrint() {
+		//Make a new for
+		for (int E = addition.size() - 1; E >= 0; E--) {
+			Myprint += addition.get(E);
+		}
+		return Myprint;
+	}
 }
