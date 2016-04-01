@@ -17,6 +17,11 @@ public class TestBigDigitAddition{
 		String first = input.next();
 		System.out.println("Second number : ");
 		String second = input.next();
-		
-			}
+
+		//Make it have a bright to next class
+		BigDigitAddition addition = new BigDigitAddition(first, second);
+
+		//Show the remind
+		System.out.println(addition.getPrint());
+	}
 }
