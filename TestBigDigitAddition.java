@@ -11,5 +11,12 @@ public class TestBigDigitAddition{
 		//Make a scanner
 		Scanner input = new Scanner(System.in);
 		
+		//Let the user enter two big numbers
+		System.out.println("Please enter two numbers to adding : ");
+		System.out.println("First number : ");
+		String first = input.next();
+		System.out.println("Second number : ");
+		String second = input.next();
+		
 			}
 }
